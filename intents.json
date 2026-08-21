@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good afternoon", "good evening",
+        "hey there", "what's up", "howdy", "yo", "hiya", "is anyone there",
+        "hello there", "greetings", "hi there", "morning", "hey bot",
+        "hello can you help me", "hi i need some help", "hey i have a question",
+        "good day", "hello i have a question", "hi there how are you",
+        "anyone available to chat"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! What brings you here today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "see ya", "catch you later",
+        "i have to go", "talk to you later", "farewell", "bye bye",
+        "i'm leaving", "quit", "exit", "close chat", "i'm done here",
+        "that's all for now bye", "ok bye", "alright goodbye", "gotta go",
+        "i'm heading out", "end chat", "that will be all thanks bye",
+        "ttyl", "see you around"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to come back anytime.",
+        "Bye! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thanks a lot", "thank you so much",
+        "appreciate it", "thanks for the help", "much appreciated",
+        "that's helpful thanks", "cheers", "thank you very much",
+        "thanks for your help", "great thank you", "perfect thanks",
+        "awesome thanks for that", "thanks a bunch", "many thanks",
+        "thank you for the quick response", "that was helpful thank you"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours", "when are you open", "what time do you open",
+        "what time do you close", "are you open now", "business hours",
+        "when can i visit", "what's your schedule", "opening hours",
+        "when are you available", "are you open on weekends",
+        "what days are you open", "store hours", "when do you close today",
+        "are you open on sundays", "what time does the store open",
+        "your working hours please", "when is the store open"
+      ],
+      "responses": [
+        "We're open Monday to Friday, 9 AM to 6 PM.",
+        "Our business hours are 9 AM - 6 PM, Monday through Friday.",
+        "You can reach us 9 AM to 6 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order", "track my order", "order status",
+        "has my order shipped", "when will my order arrive",
+        "i want to check my order", "order tracking", "my package status",
+        "has my package been shipped", "check delivery status",
+        "when will my package get here", "i haven't received my order yet",
+        "can you track my shipment", "what's the delivery estimate",
+        "my order hasn't arrived", "track shipment for order",
+        "where is my package right now", "status of my delivery"
+      ],
+      "responses": [
+        "Please provide your order ID and I'll look up the status for you.",
+        "I can help track that — could you share your order number?",
+        "Sure, send me your order ID to check the delivery status."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "i want a refund", "how do i get my money back", "refund policy",
+        "can i return this item", "how to request a refund",
+        "i want to return my order", "cancel my order and refund",
+        "refund process", "money back guarantee", "return policy",
+        "i'd like to send this back for a refund", "how long do refunds take",
+        "can i get my money back for this", "i need to return a purchase",
+        "how do returns work", "requesting a refund for my order",
+        "please refund my last purchase", "how do i initiate a return"
+      ],
+      "responses": [
+        "Our refund policy allows returns within 30 days of purchase. Would you like me to start that process?",
+        "I can help with a refund request — could you provide your order ID?",
+        "Refunds are processed within 5-7 business days after we receive the returned item."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "tell me about your products", "what do you sell",
+        "do you have this in stock", "product details",
+        "what features does it have", "is this available",
+        "can you tell me more about this product", "product catalog",
+        "what sizes are available", "do you have this in other colors",
+        "is this item in stock right now", "what materials is this made of",
+        "can you describe this product for me", "what's included in the box",
+        "do you have a larger size of this", "what colors does this come in",
+        "give me the specs for this product", "is there a warranty on this"
+      ],
+      "responses": [
+        "Sure! Could you tell me which product you're interested in?",
+        "I'd be happy to share product details — which item did you have in mind?",
+        "Let me know the product name and I'll pull up the details."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "i have a complaint", "this is unacceptable", "i'm not happy with this",
+        "i want to file a complaint", "this product is defective",
+        "i received a damaged item", "your service was terrible",
+        "i'm very disappointed", "this is a bad experience", "i want to speak to a manager",
+        "the item i got is broken", "i'm really frustrated with this service",
+        "this is the worst experience i've had", "my order arrived damaged",
+        "i'm upset about how this was handled", "this product doesn't work at all",
+        "i need to report a problem with my order", "very poor customer service"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Could you share more details so I can help resolve this?",
+        "I apologize for the inconvenience — let's get this sorted out. What happened?",
+        "That's not the experience we want for you. Please tell me more so I can escalate this properly."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "what payment methods do you accept", "can i pay with paypal",
+        "do you accept credit cards", "payment options",
+        "how can i pay", "is cash on delivery available",
+        "do you take debit cards", "payment methods",
+        "can i pay using apple pay", "do you accept google pay",
+        "is there an installment payment option", "can i pay in installments",
+        "do you support bank transfer", "what cards do you accept",
+        "how do i pay for my order", "can i use gift cards to pay"
+      ],
+      "responses": [
+        "We accept credit/debit cards, PayPal, and major digital wallets.",
+        "You can pay via card, PayPal, or Apple Pay / Google Pay.",
+        "We support all major cards along with PayPal for payments."
+      ]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "can i talk to a human", "connect me to an agent", "i want a real person",
+        "talk to customer service", "speak to a representative",
+        "transfer me to an agent", "is there a human i can talk to",
+        "i need to speak to support", "get me a live agent",
+        "i don't want to talk to a bot", "put me through to someone",
+        "can a real person help me", "i need human assistance",
+        "please connect me with support staff", "escalate to a human agent"
+      ],
+      "responses": [
+        "Sure, connecting you to a human agent now — please hold on.",
+        "I'll transfer you to a support representative right away.",
+        "Got it, let me get a live agent to assist you."
+      ]
+    }
+  ]
+}

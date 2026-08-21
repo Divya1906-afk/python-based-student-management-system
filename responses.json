@@ -1,0 +1,52 @@
+{
+  "greeting": [
+    "Hello! How can I help you today?",
+    "Hi there! What can I do for you?",
+    "Hey! What brings you here today?"
+  ],
+  "goodbye": [
+    "Goodbye! Have a great day.",
+    "See you later! Feel free to come back anytime.",
+    "Bye! Take care."
+  ],
+  "thanks": [
+    "You're welcome!",
+    "Happy to help!",
+    "Anytime! Let me know if you need anything else."
+  ],
+  "hours": [
+    "We're open Monday to Friday, 9 AM to 6 PM.",
+    "Our business hours are 9 AM - 6 PM, Monday through Friday.",
+    "You can reach us 9 AM to 6 PM on weekdays."
+  ],
+  "order_status": [
+    "Please provide your order ID and I'll look up the status for you.",
+    "I can help track that \u2014 could you share your order number?",
+    "Sure, send me your order ID to check the delivery status."
+  ],
+  "refund": [
+    "Our refund policy allows returns within 30 days of purchase. Would you like me to start that process?",
+    "I can help with a refund request \u2014 could you provide your order ID?",
+    "Refunds are processed within 5-7 business days after we receive the returned item."
+  ],
+  "product_info": [
+    "Sure! Could you tell me which product you're interested in?",
+    "I'd be happy to share product details \u2014 which item did you have in mind?",
+    "Let me know the product name and I'll pull up the details."
+  ],
+  "complaint": [
+    "I'm sorry to hear that. Could you share more details so I can help resolve this?",
+    "I apologize for the inconvenience \u2014 let's get this sorted out. What happened?",
+    "That's not the experience we want for you. Please tell me more so I can escalate this properly."
+  ],
+  "payment": [
+    "We accept credit/debit cards, PayPal, and major digital wallets.",
+    "You can pay via card, PayPal, or Apple Pay / Google Pay.",
+    "We support all major cards along with PayPal for payments."
+  ],
+  "human_agent": [
+    "Sure, connecting you to a human agent now \u2014 please hold on.",
+    "I'll transfer you to a support representative right away.",
+    "Got it, let me get a live agent to assist you."
+  ]
+}
